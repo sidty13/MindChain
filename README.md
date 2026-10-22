@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # IsYourDayOk - Base Batches Builder Track Submission
 
 > **Check in. Reflect. Grow. Own Your Wellness Journey.**
@@ -552,3 +553,7 @@ IsYourDayOk is building a future where:
 ---
 
 *Built with ❤️ on Base | Submitted for Base Batches Builder Track | October 24, 2025*
+=======
+# MindChain
+BT MINI PROJECT
+>>>>>>> origin/main
