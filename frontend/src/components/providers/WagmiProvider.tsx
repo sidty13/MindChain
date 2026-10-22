@@ -21,14 +21,14 @@ export const config = createConfig({
 
     // Coinbase Wallet
     coinbaseWallet({
-      appName: "IsYourDayOk",
+      appName: "MindChain",
       preference: "all", // tries both extension and web/mobile SDK
     }),
 
     // Base Account (Smart Wallet)
     baseAccount({
-      appName: "IsYourDayOk",
-      appLogoUrl: "/icons/IsYourDayOkfinal.png",
+      appName: "MindChain",
+      appLogoUrl: "/icons/MindChainfinal.png",
     }),
   ],
 });

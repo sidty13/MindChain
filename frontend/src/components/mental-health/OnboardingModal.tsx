@@ -11,8 +11,8 @@ export function OnboardingModal({ onComplete }: OnboardingModalProps) {
 
   const steps = [
     {
-      icon: '/icons/IsYourDayOkfinal.png',
-      title: 'Welcome to IsYourDayOk',
+      icon: '/icons/MindChainfinal.png',
+      title: 'Welcome to MindChain',
       description: 'Your daily mental wellness companion. Check in with your mood, journal, and meditate to build healthy habits.',
       isImage: true,
     },

@@ -239,12 +239,12 @@ export function MentalHealth() {
             <div className="text-center mb-8">
               <div className="w-28 h-28 mx-auto mb-4 flex items-center justify-center">
                 <img 
-                  src="/icons/IsYourDayOkfinal.png" 
-                  alt="IsYourDayOk Logo" 
+                  src="/icons/MindChainfinal.png" 
+                  alt="MindChain Logo" 
                   className="w-full h-full object-contain drop-shadow-2xl"
                 />
               </div>
-              <h1 className="text-3xl font-bold text-gray-900 mb-2">IsYourDayOk</h1>
+              <h1 className="text-3xl font-bold text-gray-900 mb-2">MindChain</h1>
               <p className="text-gray-600">Your Mental Health Companion on Base</p>
             </div>
 
@@ -380,12 +380,12 @@ export function MentalHealth() {
         <header className="mb-4 flex items-center justify-between bg-white rounded-3xl p-3 shadow-sm sticky top-3 z-10 backdrop-blur-lg bg-white/95">
           <div className="flex items-center gap-2">
             <img 
-              src="/icons/IsYourDayOkfinal.png" 
-              alt="IsYourDayOk Logo" 
+              src="/icons/MindChainfinal.png" 
+              alt="MindChain Logo" 
               className="h-8 w-8 object-contain"
             />
             <div>
-              <h1 className="text-base font-bold leading-tight">IsYourDayOk</h1>
+              <h1 className="text-base font-bold leading-tight">MindChain</h1>
               <p className="text-[10px] text-gray-500 leading-tight">
                 Mental Health
               </p>

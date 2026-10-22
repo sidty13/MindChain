@@ -184,7 +184,7 @@ export function MintModal({ achievement, contracts, onClose }: MintModalProps) {
                     <span className="text-lg">⚡</span>
                     <div className="flex-1">
                       <p className="text-sm font-medium text-green-900">Gasless Minting Enabled</p>
-                      <p className="text-xs text-green-700">No gas fees required - sponsored by IsYourDayOk</p>
+                      <p className="text-xs text-green-700">No gas fees required - sponsored by MindChain</p>
                     </div>
                   </div>
                 </div>

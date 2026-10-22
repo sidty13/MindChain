@@ -13,8 +13,8 @@ import { numberToHex, encodeFunctionData, type Hex } from 'viem';
 // Initialize Base Account SDK
 export function createBaseAccount() {
   return createBaseAccountSDK({
-    appName: 'IsYourDayOk',
-    appLogoUrl: 'https://is-your-day-ok.vercel.app/icons/IsYourDayOkfinal.png',
+    appName: 'MindChain',
+    appLogoUrl: 'https://is-your-day-ok.vercel.app/icons/MindChainfinal.png',
     appChainIds: [
       base.constants.CHAIN_IDS.base, // Mainnet
     ],

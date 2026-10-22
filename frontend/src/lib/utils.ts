@@ -2,7 +2,7 @@ import { clsx, type ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
 
 export const METADATA = {
-  name: "IsYourDayOk",
+  name: "MindChain",
   tagline: "Track your mood and earn NFTs for building mental wellness habits",
   subtitle: "Your Daily Mental Wellness Companion on Base",
   description:
@@ -10,7 +10,7 @@ export const METADATA = {
   ogDescription:
     "Track your mood and earn NFTs for building mental wellness habits",
   longDescription:
-    "IsYourDayOk helps you build lasting wellness habits through daily mood tracking, journaling, and meditation. Earn points for each activity and unlock achievement NFTs when you hit 7-day and 30-day streaks. Built on Base blockchain, your achievements are yours forever.",
+    "MindChain helps you build lasting wellness habits through daily mood tracking, journaling, and meditation. Earn points for each activity and unlock achievement NFTs when you hit 7-day and 30-day streaks. Built on Base blockchain, your achievements are yours forever.",
   marketingTaglines: {
     primary: "Track your mood and earn NFTs for building mental wellness habits",
     alternative: [
@@ -33,7 +33,7 @@ export const METADATA = {
   }/icons/og_image.png`,
   iconImageUrl: `${
     process.env.NEXT_PUBLIC_URL ?? "https://is-your-day-ok.vercel.app"
-  }/icons/IsYourDayOkfinal.png`,
+  }/icons/MindChainfinal.png`,
   homeUrl: process.env.NEXT_PUBLIC_URL ?? "https://is-your-day-ok.vercel.app",
   splashBackgroundColor: "#ffffff",
 };
