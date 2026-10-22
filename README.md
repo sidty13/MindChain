@@ -384,27 +384,27 @@ IsYourDayOk gamifies mental wellness through blockchain technology:
 
 ## 🗺️ Roadmap
 
-### Phase 1: Foundation (Current - October 2025)
+### Phase 1: Foundation (Current - October 2026)
 ✅ Core features (mood, journal, meditation)  
 ✅ Points & NFT system  
 ✅ Base mainnet deployment  
 ✅ Farcaster integration  
 
-### Phase 2: Enhancement (November - December 2025)
+### Phase 2: Enhancement (November - December 2026)
 - [ ] Advanced analytics dashboard
 - [ ] Group challenges & competitions
 - [ ] Therapist verification system
 - [ ] Mobile app (iOS/Android)
 - [ ] Multilingual support
 
-### Phase 3: Ecosystem (Q1 2026)
+### Phase 3: Ecosystem (Q1 2027)
 - [ ] Third-party integrations (wearables, etc.)
 - [ ] DAO governance for feature voting
 - [ ] Marketplace for achievement badges
 - [ ] Professional wellness coach network
 - [ ] Insurance/healthcare partnerships
 
-### Phase 4: Scale (Q2 2026+)
+### Phase 4: Scale (Q2 2027+)
 - [ ] Cross-chain expansion
 - [ ] Enterprise wellness programs
 - [ ] Research partnerships (universities)
