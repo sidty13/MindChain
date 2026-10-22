@@ -1,0 +1,20 @@
+{
+  "name": "30-Day Journal Streak",
+  "description": "Completed 30 consecutive days of journaling for mental health. This achievement represents exceptional commitment to daily self-reflection and emotional growth.",
+  "image": "https://your-domain.com/nft/achievement.png",
+  "external_url": "https://isyourdayok.com",
+  "attributes": [
+    {
+      "trait_type": "Achievement Type",
+      "value": "Journal Streak"
+    },
+    {
+      "trait_type": "Duration",
+      "value": "30 Days"
+    },
+    {
+      "trait_type": "Category",
+      "value": "Mental Health"
+    }
+  ]
+}

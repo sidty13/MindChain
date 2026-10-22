@@ -1,0 +1,20 @@
+{
+  "name": "30-Day Meditation Streak",
+  "description": "Completed 30 consecutive days of meditation practice. This achievement represents exceptional commitment to mindfulness and mental wellness through sustained daily meditation.",
+  "image": "https://is-your-day-ok.vercel.app/nft/thirtieth_day_meditation_streak.png",
+  "external_url": "https://is-your-day-ok.vercel.app/",
+  "attributes": [
+    {
+      "trait_type": "Achievement Type",
+      "value": "Meditation Streak"
+    },
+    {
+      "trait_type": "Duration",
+      "value": "30 Days"
+    },
+    {
+      "trait_type": "Category",
+      "value": "Mental Health"
+    }
+  ]
+}

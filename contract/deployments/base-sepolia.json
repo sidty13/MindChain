@@ -1,0 +1,15 @@
+{
+  "network": "base-sepolia",
+  "chainId": 84532,
+  "timestamp": "2025-10-18T04:23:30Z",
+  "contracts": {
+    "IsYourDayOkPoints": {
+      "address": "0x53D68885D3Bd841B9eD99306eCa07C7f43fDF557",
+      "txHash": ""
+    },
+    "IsYourDayOkNFT": {
+      "address": "0xbe12BEE2433AA6bE6e4f558DA9bCd44F6DD7B981",
+      "txHash": ""
+    }
+  }
+}

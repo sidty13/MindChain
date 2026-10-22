@@ -1,0 +1,26 @@
+# Compiler files
+cache/
+out/
+*.cache
+*.log
+
+# Foundry build artifacts
+broadcast/
+*.broadcast
+
+# Environment variables
+.env
+.env.local
+
+# Dependencies
+node_modules/
+lib/
+
+# Temporary files
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Lock files (optional - uncomment if you want to ignore)
+# foundry.lock

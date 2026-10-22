@@ -1,0 +1,20 @@
+{
+  "name": "7-Day Journal Streak",
+  "description": "Completed 7 consecutive days of journaling for mental health. This achievement represents dedication to self-reflection and emotional wellness.",
+  "image": "https://is-your-day-ok.vercel.app/nft/seventh_day_journaling_streak.png",
+  "external_url": "https://is-your-day-ok.vercel.app/",
+  "attributes": [
+    {
+      "trait_type": "Achievement Type",
+      "value": "Journal Streak"
+    },
+    {
+      "trait_type": "Duration",
+      "value": "7 Days"
+    },
+    {
+      "trait_type": "Category",
+      "value": "Mental Health"
+    }
+  ]
+}

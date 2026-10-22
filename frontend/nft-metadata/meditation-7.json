@@ -1,0 +1,20 @@
+{
+  "name": "7-Day Meditation Streak",
+  "description": "Completed 7 consecutive days of meditation practice. This achievement represents dedication to mindfulness and mental wellness through daily meditation.",
+  "image": "https://your-domain.com/nft/achievement.png",
+  "external_url": "https://isyourdayok.com",
+  "attributes": [
+    {
+      "trait_type": "Achievement Type",
+      "value": "Meditation Streak"
+    },
+    {
+      "trait_type": "Duration",
+      "value": "7 Days"
+    },
+    {
+      "trait_type": "Category",
+      "value": "Mental Health"
+    }
+  ]
+}

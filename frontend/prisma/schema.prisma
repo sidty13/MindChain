@@ -1,0 +1,113 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id               String           @id @default(cuid())
+  walletAddress    String           @unique
+  farcasterFid     String?          @unique
+  username         String?
+  profileImage     String?
+  points           Int              @default(0)
+  journalStreak    Int              @default(0)
+  meditationStreak Int              @default(0)
+  createdAt        DateTime         @default(now())
+  updatedAt        DateTime         @updatedAt
+  chatMessages     ChatMessage[]
+  journals         Journal[]
+  meditations      Meditation[]
+  MoodLog          MoodLog[]
+  NFTAchievement   NFTAchievement[]
+
+  @@index([farcasterFid])
+  @@index([walletAddress])
+}
+
+model Journal {
+  id        String   @id @default(cuid())
+  userId    String
+  content   String
+  points    Int      @default(20)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([createdAt])
+}
+
+model Meditation {
+  id        String   @id @default(cuid())
+  userId    String
+  duration  Int
+  completed Boolean  @default(false)
+  points    Int      @default(30)
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([createdAt])
+}
+
+model ChatMessage {
+  id        String   @id @default(cuid())
+  userId    String?
+  type      String
+  content   String
+  createdAt DateTime @default(now())
+  user      User?    @relation(fields: [userId], references: [id])
+
+  @@index([createdAt])
+  @@index([type])
+}
+
+model DailyActivity {
+  id             String   @id
+  userId         String
+  date           DateTime @db.Date
+  meditationDone Boolean  @default(false)
+  journalDone    Boolean  @default(false)
+  moodLogDone    Boolean  @default(false)
+  createdAt      DateTime @default(now())
+
+  @@unique([userId, date])
+  @@index([date])
+  @@index([userId])
+}
+
+model MoodLog {
+  id        String   @id
+  userId    String
+  mood      String
+  rating    Int
+  points    Int      @default(10)
+  createdAt DateTime @default(now())
+  User      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([createdAt])
+  @@index([userId])
+}
+
+model NFTAchievement {
+  id                String    @id
+  userId            String
+  type              String
+  days              Int
+  tokenId           String?   @unique
+  contractAddress   String?
+  transactionHash   String?
+  improvementRating Int
+  minted            Boolean   @default(false)
+  mintedAt          DateTime?
+  createdAt         DateTime  @default(now())
+  User              User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([minted])
+  @@index([tokenId])
+  @@index([userId])
+}
